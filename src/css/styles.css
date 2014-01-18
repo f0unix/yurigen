@@ -1,0 +1,95 @@
+body{
+	background-color: rgba(2, 2, 2, 0.94);
+}
+
+#output{
+	width:100%;
+	height:68%;
+	border-radius:3px;
+	border: 2px solid rgb(45, 149, 207);
+	background-color:#000;
+	color:#37D7FF;
+	outline:0;
+	font-weight: bold;
+	font-family: arial;
+	font-size: large;
+}
+
+.button{
+	width:100%;
+	-moz-box-shadow: 0px 10px 14px -7px rgba(0, 218, 255, 0.3);
+	-webkit-box-shadow: 0px 10px 14px -7px rgba(0, 218, 255, 0.3);
+	box-shadow: 0px 10px 14px -7px rgba(0, 218, 255, 0.3);
+	background-color:#21A6D6;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:2px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	border:0;
+	outline :none;
+}
+
+.button:hover{
+	background-color:#0ABAFF;
+}
+
+.button:active{
+	position:relative;
+	top:1px;
+}
+
+.inputs  { 
+	width: 100%;
+	height: 5%;
+	border: 3px solid rgba(53, 182, 255, 0.43);
+	font-family: Arial;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	text-indent: 3px;
+	font-size: 100%;
+} 
+
+.inputs:focus { 
+	border-color: rgb(45, 149, 207); 
+	outline: none; 
+} 
+
+.property{
+	width:25%;
+}
+.pull-right{
+ float:right;
+}
+
+.add_property{
+	width:48%;
+	height:5%;
+	padding:0;
+	font-size:18px;
+
+}
+
+.count_box{
+	margin-top:-41px;
+	font-family: arial;
+	font-weight: bold;
+	color: #FFFFFF !important;
+	font-size: 16px;
+	padding: 0px 4px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px solid #FFFFFF;
+	background: #000000;
+	position:relative;
+}
